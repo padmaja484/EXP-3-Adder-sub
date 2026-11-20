@@ -39,7 +39,6 @@ module half_subtractor (
     assign Borrow = (~A) & B;  // A' . B
 endmodule
 ```
-```
 ### Testbench Program
 Testbench Program
 // gedit tb3.v
